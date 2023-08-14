@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SLANKDOTCOM</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f1f1f1;
+
+        padding: 20px;
+        font-family: Arial;
+      }
+
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+        color: #ffffff;
+      }
+      h2 {
+        color: #ffffff;
+      }
+
+      .row {
+        margin: 8px -16px;
+      }
+
+      /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      .sticky {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
+      .icon-bar {
+        text-align: center;
+        background-color: #333;
+      }
+
+      .icon-bar a {
+        display: block;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+
+      .facebook {
+        background: #3b5998;
+      }
+
+      .twitter {
+        background: #55acee;
+      }
+
+      .google {
+        background: #dd4b39;
+      }
+
+      .linkedin {
+        background: #007bb5;
+      }
+
+      .youtube {
+        background: #bb0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <a href="biography.html">Biographies</a>
+      </div>
+      <div>
+        <a href="tour.html">Schedule</a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          The Musik
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="lirik.html">lirik</a>
+          <a href="sampletrack.html">Sample Track</a>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="index.html"> <img src="../images/logo.png" alt="Logo" /></a>
+      </div>
+
+      <a href="pictures.html">Pictures</a>
+
+      <a href="store.html">Store</a>
+      <a href="kontak.html">Contact</a>
+    </div>
+    <div class="icon-bar sticky">
+      <a
+        href="https://www.facebook.com/slankband/?locale=id_ID"
+        class="facebook"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://twitter.com/slankdotcom" class="twitter"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="https://slank.com/" class="google"
+        ><i class="fa fa-google"></i
+      ></a>
+      <a
+        href="https://www.youtube.com/channel/UC2ZxI_dxCy3_PwMu8EHKsKw"
+        class="youtube"
+        ><i class="fa fa-youtube"></i
+      ></a>
+    </div>
+    <!-- MAIN (Center website) -->
+    <div class="main">
+      <h1>SLANKDOTCOM</h1>
+      <hr />
+      <h2>BIOGRAPHYS PERSONIL</h2>
+      <p></p>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="../images/kaka.jpg" alt="KAKA" style="width: 100%" />
+            <h3>KAKA</h3>
+            <p>
+              Akhadi Wira Satriaji atau lebih akrab disapa Kaka merupakan
+              vokalis band fenomenal Slank. Ia mulai berkarier dengan Slank
+              sejak 1989. Pria kelahiran Jakarta, 10 Maret 1975 ini dalam
+              bernyanyinya terinspirasi oleh Iron Maiden, David Coverdale, dan
+              Bob Marley.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="../images/bimbim.jpg" alt="BIMBIM" style="width: 100%" />
+            <h3>BIM BIM</h3>
+            <p>
+              Bimo Setiawan Almachzumi (lahir 25 Desember 1966), yang dikenal
+              sebagai Bimbim adalah musisi dan penulis lagu Indonesia. Ia
+              merupakan anggota pendiri dan pimpinan dari grup musik Slank,
+              dengan posisi sebagai drummer, gitaris, bassis dan vokalis.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="../images/abdee.jpg" alt="ABDEE" style="width: 100%" />
+            <h3>ABDEE</h3>
+            <p>
+              Abdi Negara Nurdin, yang dikenal sebagai Abdee Negara atau Abdee
+              Slank adalah pemusik berkebangsaan Indonesia keturunan Kaili,
+              Sulawesi Tengah. Selain itu dia juga tampil sebagai pendukung,
+              penulis lagu dan produser.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="../images/ridho.jpg" alt="IVANKAA" style="width: 100%" />
+            <h3>RIDHO</h3>
+            <p>
+              Mohammad Ridwan Hafiedz atau Ridho adalah gitaris ritme, vokal
+              pendukung, dan penulis lagu Indonesia keturunan Bugis, Sulawesi
+              Selatan dan Ambon, Maluku. Ia adalah gitaris ritme, kibordis,
+              pianis Slank dan vokal pendukung dengan gitaris utama lainnya,
+              Abdee Negara.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="../images/ivanka.jpg" alt="RIDHO" style="width: 100%" />
+            <h3>IVANKA</h3>
+            <p>
+              Ivan Kurniawan Arifin dikenal dengan Ivanka, merupakan pemain bass
+              grup musik Slank. Pria kelahiran Jakarta ini mulai bergabung
+              dengan Slank sejak tahun 1997
+            </p>
+          </div>
+        </div>
+
+        <!-- END GRID -->
+      </div>
+
+      <div class="content">
+        <img src="../images/bio.jpg" style="width: 100%" />
+        <h2>SLANK</h2>
+        <p>
+          Slank adalah salah satu grup musik paling ikonik dan berpengaruh di
+          Indonesia. Mereka telah menciptakan sejarah dalam industri musik Tanah
+          Air dan terus menginspirasi banyak generasi musisi. Berikut adalah
+          penjelasan yang lebih luas tentang biografi dan perjalanan karier
+          Slank: <br />
+          1. Awal Mula: - Slank didirikan pada tanggal 26 Desember 1983 di
+          Jakarta oleh Bimbim (Bimbo) sebagai drummer dan pendiri utama grup
+          musik ini. <br />
+          - Awalnya, Slank adalah sebuah band cover yang membawakan lagu-lagu
+          dari penyanyi dan band luar negeri. Namun, mereka kemudian beralih
+          fokus untuk menciptakan dan membawakan lagu-lagu orisinal mereka
+          sendiri. <br />
+          - Pada tahap awal, Slank sering tampil di berbagai acara panggung di
+          Jakarta dan sekitarnya. <br /><br />
+          2. Perjalanan Karier: <br />
+          - Pada tahun 1984, Slank merilis album pertama mereka yang berjudul
+          "Suit-Suit... He-He..." yang berisi lagu-lagu dengan sentuhan pop rock
+          yang catchy. <br />
+          - Album-album Slank selanjutnya seperti "Pisah Saja Dulu" (1985) dan
+          "Kampungan" (1991) terus memperkuat posisi mereka di kancah musik
+          Indonesia. <br />
+          - Pada tahun 1996, Slank merilis album "Tujuh" yang menjadi salah satu
+          titik balik penting dalam karier mereka. Album ini menghadirkan
+          lagu-lagu hits seperti "Balikin" dan "Mawar Merah".<br />
+          - Kesuksesan "Tujuh" membawa Slank ke puncak popularitas dan mereka
+          terus merilis album-album sukses seperti "Satu Satu" (1997), "Konser
+          Piss 30 Kota" (1998), "Virus" (2001), dan masih banyak lagi.
+          <br /><br />
+          3. Eksplorasi Musik dan Pengaruh: <br />
+          - Slank dikenal dengan gaya musik yang beragam. Mereka menggabungkan
+          unsur-unsur rock, pop, blues, reggae, dan unsur-unsur musik
+          tradisional Indonesia dalam karya-karya mereka.<br />
+          - Lirik-lirik lagu Slank seringkali mengangkat isu-isu sosial dan
+          kritis terhadap kondisi sosial-politik di Indonesia. Mereka berbicara
+          tentang cinta, persahabatan, ketidakadilan, kebebasan, dan berbagai
+          tema lain yang relevan. <br />
+          - Slank juga terkenal dengan penampilan panggung mereka yang energik
+          dan menghibur. Mereka dikenal dengan interaksi yang kuat dengan
+          penonton dan kehadiran visual yang menarik.<br /><br />
+          4. Penghargaan dan Prestasi: <br />
+          - Selama perjalanan karier mereka, Slank telah menerima berbagai
+          penghargaan dan prestasi. Mereka telah memenangkan sejumlah
+          penghargaan musik bergengsi di Indonesia, termasuk Anugerah Musik
+          Indonesia (AMI Awards) dan Indonesian Music Awards (IMA). <br />
+          - Slank juga dianugerahi penghargaan dan pengakuan di tingkat
+          internasional, seperti "World Peace Music Award" pada tahun 2014.
+          <br /><br />
+          5. Aktivitas Sosial dan Kontribusi: <br />
+          - Slank aktif dalam kegiatan sosial dan sering kali terlibat dalam
+          kampanye-kampanye amal, terutama yang berkaitan dengan anak-anak dan
+          lingkungan. <br />
+          - Mereka juga terlibat dalam berbagai gerakan sosial, kampanye
+          politik, dan aksi kemanusiaan untuk memperjuangkan perubahan positif
+          di masyarakat. <br /><br />
+
+          Slank telah menjadi legenda hidup dalam industri musik Indonesia.
+          Mereka memiliki basis penggemar yang sangat kuat dan loyal yang
+          dikenal dengan sebutan "Slankers". Grup musik ini terus aktif dalam
+          bermusik, merilis album baru, dan mengadakan konser di berbagai kota
+          di Indonesia maupun di luar negeri. Slank tidak hanya dikenal sebagai
+          grup musik, tetapi juga sebagai simbol keberanian, kebebasan
+          berekspresi, dan semangat untuk menghadapi tantangan dalam hidup.<br />
+        </p>
+        <p></p>
+      </div>
+
+      <!-- END MAIN -->
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; Website Fahryan Bagus Ananda 2023</p>
+    </footer>
+  </body>
+</html>

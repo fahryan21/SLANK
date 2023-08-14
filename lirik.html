@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SLANKDOTCOM</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <a href="biography.html">Biographies</a>
+      </div>
+      <div>
+        <a href="tour.html">Schedule</a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          The Musik
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="lirik.html">lirik</a>
+          <a href="sampletrack.html">Sample Track</a>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="index.html"> <img src="../images/logo.png" alt="Logo" /></a>
+      </div>
+
+      <a href="pictures.html">Pictures</a>
+
+      <a href="store.html">Store</a>
+      <a href="kontak.html">Contact</a>
+    </div>
+
+    <header><h2>Lirik</h2></header>
+    <div class="container">
+      <div class="song-list">
+        <ul>
+          <li onclick="displayLyrics('lirik1')">Seperti Para Koruptor</li>
+          <li onclick="displayLyrics('lirik2')">Tong Kosong</li>
+          <li onclick="displayLyrics('lirik3')">Bimbim Jangan Menangis</li>
+          <!-- <li onclick="displayLyrics('Kamu Ngga Sendirian')">Kamu Ngga Sendirian</li>
+            <li onclick="displayLyrics('Salam Rindu')">Salam Rindu</li>
+            <li onclick="displayLyrics('Sakit Hati')">Sakit Hati</li> -->
+        </ul>
+      </div>
+      <div class="lyrics">
+        <style>
+          p#song-lyrics {
+            color: white;
+          }
+
+          h2#song-title {
+            color: white;
+          }
+        </style>
+        <h2 id="song-title"></h2>
+        <p id="song-lyrics"></p>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; Website Fahryan Bagus Ananda 2023</p>
+    </footer>
+  </body>
+</html>
